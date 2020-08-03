@@ -1,0 +1,48 @@
+body{
+	background-image: url(../images/hardcover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: overlay;
+	text-align: left;
+	margin-left: 50px;
+	color: white;
+}
+
+h1{
+	font-family: Sabon, serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+hr{
+	width: 500px;
+}
+p{
+	font-family: DIN Medium, sans-serif;
+	font-size: 20px;
+}
+#logo{
+	width: 1200px;
+	text-align: center;	
+}
+#sale{
+	width: 400px;
+}
+#guitar{
+	width: 500px;
+}
+ul{
+	font-family: DIN Medium, sans-serif;
+	font-size: 20px;
+}
+input[type="submit"] {
+    background: blue;
+    color: white;
+    font-family: DIN Medium, sans-serif;
+}
+input[type="email"]{
+	font-family: DIN Medium, sans-serif;
+}
+input{
+	padding: 10px;
+	border: 2px solid block;
+}
