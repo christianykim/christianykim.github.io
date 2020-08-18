@@ -1,0 +1,85 @@
+header{
+  background-color:#FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav{
+  background-color:#E8C66A;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+aside{
+  background-color:#FFC675;
+  border: 1px black solid;
+  padding: 20px;
+  font-family: DIN Medium, serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+article{
+  background-color:#E89C6C;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+footer{
+  background-color:#FF957E;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+section{
+  background-color:#FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+#logo {
+  display:inline-block;
+  top:3%;
+  left:3%;
+  width: 10%;
+  max-width:300px;
+  margin: 10px 30px;
+}
+
+#contact {
+  position: relative;
+  margin:10px 30px;
+  line-height: 1.5em;
+}
+
+#contact > a {
+  font-family: DIN Medium, sans-serif;
+  font-size:18px;
+  color:black;
+}
+
+#about {
+  font-family: Garamond, serif;
+  text-align: center;
+  font-size: 30px;
+  font-size:18px;
+  min-width:500px;
+}
+
+p {
+	font-family: DIN Medium, sans-serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+#desktop_landing {
+  text-align:center;
+  padding:5% 15%;
+  min-width:500px;
+}
+
+#desktop_landing > img {
+  display:inline-block;
+  width:30%;
+  margin:2%
+}
