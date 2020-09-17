@@ -83,7 +83,7 @@ button:hover {
 }
 
 #vol1{
-	background-image: url('img/gltch2.gif');
+	background-image: url('../images/gltch2.gif');
 	background-size:cover;
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -189,9 +189,132 @@ footer {
 
 }
 
+
+@media screen and (max-width: 600px){
+
+body {
+		min-width:0;
+		width: auto !important;
+		width:0;
+	}
+
+	#landing-img {
+		display:none;
+	}
+
+	#mobile-landing-img {
+		width:100%;
+		height:auto;
+		display:initial;
+	}
+
+	#arrow {
+		display:none;
+	}
+
+	#vol-2-announcement {
+		font-size:24px;
+		font-family:"ceremony";
+		width:70%;
+		position:absolute;
+		top:60%;
+		text-align:center;
+		padding:0px;
+		padding-top:15px;
+		padding-bottom:15px;
+		left:15%;
+	}
+
+	#zine2cover {
+	    width: 70%;
+	    display:block;
+	    text-align:center;
+	    vertical-align: middle;
+	    margin-top:20px;
+	    float:none;
+		opacity: .9;		
+		padding-left: 15%;
+		padding-right:15%;
+		padding-top:10%;
+		min-height:0;
+	}
+
+	#zine2-name-button{
+		float: none;
+		display:block;
+		color: #FFFFFF;
+		width: 90%;
+		padding-top: 7%;
+		padding-right: 5%;
+		padding-left:5%;
+	}
+	ul{
+		font-size: 12px;
+		display: block;
+	  	-webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
+	    column-gap: 0%;
+	    min-width:0;
+	}
+
+	#zine2download{
+		margin-bottom:15%;
+	}
+
+	#vol1-zine{
+		display:none;
+	}
+
+	#vol1-title {
+		margin-bottom:250px;
+		padding-top:0;
+		margin-top:0;
+	}
+
+	#vol1-info{
+		padding-top:5%;
+		padding-bottom:5%;
+		float:none;
+		display:inline;
+		text-align:left;
+		width: 90%;
+	}
+
+
+	footer {
+		font-size:12px;
+		height:100px;
+	}
+
+	#footer-logo-link {
+		margin-left:3.5%;
+		margin-right:3.5%;
+	}
+
+
+
+	#footer-info {
+		width:37%;
+		margin-right:3%;
+	}
+
+	#footer-contact {
+		width:33%;
+		margin-right:2%;
+	}
+
+	#footer-contact > a {
+		text-decoration:none;
+		color:white;
+		padding-right:10px;
+	}
+
+
+}
+
+
 @media screen and (max-width: 481px){
-
-
 
 	body {
 		min-width:0;
