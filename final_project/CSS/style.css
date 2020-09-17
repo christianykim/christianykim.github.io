@@ -1,0 +1,317 @@
+@font-face {
+  font-family: 'ceremony';
+  src: url('DIN Medium Regular.ttf');
+}
+html {
+	margin:0;
+}
+
+body {
+	margin:0;
+	background-color:black;
+	font-family:"ceremony";
+	color:black;
+	min-width:1000;
+	width: auto;
+	width:1000;
+}
+
+#landing-img {
+	width:100%;
+	height:auto%;
+}
+
+#mobile-landing-img {
+	display:none;
+}
+
+#vol-2-announcement {
+	font-size:52px;
+	font-family: DIN Medium, sans-serif;
+	position:absolute;
+	bottom:30%;
+	left:5%;
+	text-align:left;
+	padding:15px;
+}
+
+#landing {
+	width:100%;
+	height:auto;
+	background-color:black;
+	text-align:center;
+	position:relative;
+}
+
+#arrow {
+	position:absolute;
+  	left: calc(5% + 434px);
+  	bottom:30%;
+  	transform:translateY(-20px);
+  	height:100px;
+}
+
+
+.page {
+	width:84%;
+	height:500px;
+	padding:8%;
+	overflow:hidden;
+
+}
+
+button {
+  	margin: 10px;
+  	padding: 15px;
+  	border: 2px solid #FFFFFF;
+  	border-radius: 6px;
+  	text-align: center;
+  	display: inline-block;
+  	text-transform: uppercase;
+  	position: relative;
+  	color:white;
+  	font-family: Helvetica Neue, sans-serif;
+  	font-size: 20px;
+  	background-color: transparent;
+  	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.10));
+}
+
+button:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: black;
+}
+
+#vol1{
+	background-image: url('img/gltch2.gif');
+	background-size:cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: auto;
+    background-blend-mode: normal;
+    background-position: left top;
+}
+
+#vol1-title{
+	font-family: Helvetica Neue, sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+
+#vol1-info{
+	padding-top:13%;
+	padding-left: 10%;
+	float:left;
+	display:inline;
+	text-align:left;
+	width: 50%;
+}
+
+#vol1-zine{
+	float: right;
+	width: 40%;
+	opacity: 1;
+}
+
+.clearfix:after{
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	width:100%;
+	height:100px;
+	background-color: #272727;
+	color:white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding: 3% 0%;
+}
+
+#footer-logo-link {
+	height:auto;
+	width:18%;
+	margin-right:5%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#footer-logo {
+	width:100%;
+}
+
+#footer-info {
+	width:20%;
+	margin-right:15%;
+}
+
+#footer-contact {
+	width:30%;
+	margin-right:5%;
+	text-align: right;
+}
+
+#footer-contact > a {
+	text-decoration:none;
+	color:white;
+	padding-right:10px;
+	font-size:24px;
+}
+
+@media screen and (max-width: 1000px){
+
+	body {
+		min-width:0;         
+		width: auto !important;
+		width:0;
+	}
+
+	#landing-img{
+		width: auto%
+		height: auto%;
+	}
+
+	#vol1-info{
+		float:none;
+		margin: 25%;
+	}
+
+	#vol1-zine{
+		float:none;
+		margin: 5% 25%;
+	}
+
+}
+
+@media screen and (max-width: 481px){
+
+
+
+	body {
+		min-width:0;
+		width: auto !important;
+		width:0;
+	}
+
+	#landing-img {
+		display:none;
+	}
+
+	#mobile-landing-img {
+		width:100%;
+		height:auto;
+		display:initial;
+	}
+
+	#arrow {
+		display:none;
+	}
+
+	#vol-2-announcement {
+		font-size:24px;
+		font-family:"ceremony";
+		width:70%;
+		position:absolute;
+		top:60%;
+		text-align:center;
+		padding:0px;
+		padding-top:15px;
+		padding-bottom:15px;
+		left:15%;
+	}
+
+	#zine2cover {
+	    width: 70%;
+	    display:block;
+	    text-align:center;
+	    vertical-align: middle;
+	    margin-top:20px;
+	    float:none;
+		opacity: .9;		
+		padding-left: 15%;
+		padding-right:15%;
+		padding-top:10%;
+		min-height:0;
+	}
+
+	#zine2-name-button{
+		float: none;
+		display:block;
+		color: #FFFFFF;
+		width: 90%;
+		padding-top: 7%;
+		padding-right: 5%;
+		padding-left:5%;
+	}
+	ul{
+		font-size: 12px;
+		display: block;
+	  	-webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
+	    column-gap: 0%;
+	    min-width:0;
+	}
+
+	#zine2download{
+		margin-bottom:15%;
+	}
+
+	#vol1-zine{
+		display:none;
+	}
+
+	#vol1-title {
+		margin-bottom:250px;
+		padding-top:0;
+		margin-top:0;
+		padding-left:2.5%;
+	}
+
+	#vol1-info{
+		padding-top:0%;
+		padding-bottom:5%;
+		padding-left: 5%;
+		float:left;
+		display:inline;
+		text-align:left;
+		width: 90%;
+	}
+
+
+	footer {
+		font-size:12px;
+		height:100px;
+	}
+
+	#footer-logo-link {
+		margin-left:3.5%;
+		margin-right:3.5%;
+	}
+
+
+
+	#footer-info {
+		width:37%;
+		margin-right:3%;
+	}
+
+	#footer-contact {
+		width:33%;
+		margin-right:2%;
+	}
+
+	#footer-contact > a {
+		text-decoration:none;
+		color:white;
+		padding-right:10px;
+	}
+
+
+}
